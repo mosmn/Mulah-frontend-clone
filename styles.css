@@ -1,0 +1,139 @@
+html, body, #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+  }
+  
+.container {
+ width: 640px;
+ height: 1136px;
+ margin: 20px auto;
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.welcome {
+    color: #6E6E6E;
+    font-size: 100px;
+}
+
+img {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.welcome {
+    color: #6E6E6E;
+    font-size: 100px;
+    align-self: flex-start;
+}
+
+.welcome-msg {
+    color: #FE6700;
+    font-size: 20px;
+    align-self: flex-start;
+ }
+  
+  input[type="tel"],
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  input[type="tel"] {
+    border: none;
+    border-bottom: 1px solid #FE6700;
+    width: 80%;
+
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  button {
+    background-color: #FE6700;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 15px;
+  }
+  
+  button:hover {
+    background-color: #c86421;
+  }
+
+
+.registeration {
+    color: #6E6E6E;
+    align-self: flex-start;
+    h2 {
+        font-size: 70px;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+}
+
+.nameInput,
+.birthdayInput,
+.emailInput,
+.noemailInput {
+  align-self: flex-start;
+  color: #6E6E6E;
+}
+
+.birthdayInput {
+    display: flex;
+    
+}
+
+.container h1 {
+    color: #6E6E6E;
+    font-size: 70px;
+    align-self: flex-start;
+  }
+  
+  .container p {
+    color: #6E6E6E;
+    font-size: 20px;
+    align-self: flex-start;
+  }
+  
+  .container span {
+    color: #FE6700;
+    font-weight: bold;
+  }
+  
+
+footer {
+    border-top: 1px solid #6E6E6E;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+
+    p {
+      font-size: 14px;
+      color: #8a8a8a;
+    }
+ }
