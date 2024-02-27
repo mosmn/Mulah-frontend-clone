@@ -100,7 +100,20 @@ img {
 .emailInput,
 .noemailInput {
   align-self: flex-start;
-  color: #6E6E6E;
+  color: #9b9b9b;
+  display: flex;
+  flex-direction: column;
+
+  input {
+    border: 2px solid #9b9b9b;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .noemailInput {
+    flex-direction: row;
+  }
+
 }
 
 .birthdayInput {
@@ -124,6 +137,7 @@ img {
     color: #FE6700;
     font-weight: bold;
   }
+ 
   
 
 footer {
